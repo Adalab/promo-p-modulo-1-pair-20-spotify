@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.container_header {
+  background-color: black;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 15px;
+}
+.menu {
+  color: aliceblue; 
+  position: relative;
+  right: 4%;
+  
+}
+}
+.logo_spotify {
+  box-sizing: border-box;
+  position: relative;
+}
