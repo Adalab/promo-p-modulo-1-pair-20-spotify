@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.container_header {
+  background-color: black;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 15px;
+}
+.menu {
+  color: aliceblue;
+  position: relative;
+  right: 4%;
+}
+.logo_spotify {
+  box-sizing: border-box;
+  position: relative;
+}
+
+.blue {
+  /* margin-top: 40px;*/
+  background-color: #0691ff;
+  color: white;
+  position: relative;
+  top: 49px;
+}
+
+.container_blue {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  height: 50%;
+}
+
+@media all and (min-width: 768px) {
+  .legal_section_blue {
+    width: 750px;
+  }
+}
+
+.wrapper {
+  margin: 0 10px;
+}
